@@ -30,12 +30,18 @@ header {
   text-align: center;
 }
 
+#cards {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
 .card {
   border-bottom: 3px solid #746615;
   border-radius: 12px;
   padding: 32px 23px;
   text-align: center;
-  background-color: #121214;
+  background-color: #121219;
   
 }
 
