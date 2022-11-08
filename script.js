@@ -20,12 +20,12 @@ function createCard(date, day, games) {
 }
 
 document.querySelector("#app").innerHTML = `
-      <header>
-          <img src="./assets/logo.svg" alt="logo">
-      </header>
+      
       <main id="cards">
         ${createCard('24/11', 'quinta',
-          createGame("brazil", "16:00", "swit")
+          createGame("brazil", "16:00", 
+          "swit") +
+          createGame("brazil", "16:00", "korea")
         )}
         ${createCard('28/11', 'sexta',
           createGame("brazil", "13:00", "serbia")
